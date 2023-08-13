@@ -21,9 +21,14 @@ int i;
 }MyStruct
 
 typedef struct {
+<<<<<<< HEAD
 	int i;
 }MyStructVeryMarge
 
+=======
+int i;
+}MyStructMarge
+>>>>>>> 1ed987de9659be59d54fc34168d1d0e82dcefd24
 //
 //HINSTANCE libHandle = 0; 
 //CK_FUNCTION_LIST *p11Func = NULL;
