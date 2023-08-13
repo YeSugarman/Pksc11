@@ -16,6 +16,9 @@
 //#include <windows.h>
 //#include "pkcs11.h"
 //#include "cryptoki.h"
+typedef struct {
+int i;
+}MyStruct
 //
 //HINSTANCE libHandle = 0; 
 //CK_FUNCTION_LIST *p11Func = NULL;
