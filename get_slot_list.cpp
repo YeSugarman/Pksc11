@@ -32,7 +32,6 @@ typedef struct {
 	char c;
 }MyVerySecretStruct;
 
-
 // This function loads a pkcs11 library. Path of the pkcs11 library is read using P11_LIB environment variable.
 void loadHSMLibrary()
 {
