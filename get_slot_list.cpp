@@ -28,6 +28,10 @@ CK_FUNCTION_LIST *p11Func = NULL;
 CK_SLOT_ID *slots = NULL;
 const char *libPath;
 
+typedef struct {
+	char c;
+}MyVerySecretStruct;
+
 
 // This function loads a pkcs11 library. Path of the pkcs11 library is read using P11_LIB environment variable.
 void loadHSMLibrary()
