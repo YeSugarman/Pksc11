@@ -19,6 +19,11 @@
 typedef struct {
 int i;
 }MyStruct
+
+typedef struct {
+	int i;
+}MyStructVeryMarge
+
 //
 //HINSTANCE libHandle = 0; 
 //CK_FUNCTION_LIST *p11Func = NULL;
