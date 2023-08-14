@@ -1,6 +1,7 @@
 /*
         This program demonstrates how to use C_GetSlotList to get the list of all detected slots.
 */
+/////////////////// testing ///////////////
 #pragma warning(disable: 4996)
 
 #include <iostream>
